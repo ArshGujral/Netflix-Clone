@@ -11,11 +11,12 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'NetflixSans', sans-serif;
-}
 
+}
 body {
     background-color: #000;
     color: #fff;
+    
 }
 
 .header {
@@ -32,11 +33,11 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 10px 0;
+    padding: 15px 0;
 }
 
 .logo {
-    width: 150px;
+    width: 200px;
     cursor: pointer;
 }
 
@@ -45,10 +46,12 @@ nav button {
     outline: none;
     background-color: #db0001;
     color: #fff;
-    padding: 7px 20px;
-    font-size: 12px;
+    padding: 8px 20px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
     border-radius: 4px;
-    margin-left: 10px;
+    margin-left: 20px;
     cursor: pointer;
 }
 
@@ -57,43 +60,61 @@ nav button {
     align-items: center;
     background: transparent;
     border: 1px solid #fff;
-    padding: 7px 10px;
+    border-radius: 4px;
+    padding: 8px 10px;
 }
 
 .lang-btn img {
     width: 10px;
     margin-left: 10px;
+    align-self: center;
 } 
 
 .fa-globe {
     color: #fff;
     width: 10px;
-    margin-right: 10px;
+    margin-right: 20px;
+    margin-left: 0px;
 }
-
 .header-content {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     text-align: center;
-    margin-top: 100px;
+    height: 100vh; /* Make the header content take up the full viewport height */
+    padding: 100px 0; /* Adjust vertical spacing as needed */
+    max-width: 100%; /* Set maximum width to 100% */
+    overflow: hidden; /* Hide any overflowing content */
 }
 
 .header-content h1 {
-    font-size: 60px;
-    line-height: 70px;
-    font-weight: 600;
-    max-width: 650px;
+    font-family: 'Roboto',sans-serif;
+    font-size: 50px;
+    line-height: 80px;
+    font-weight: 800;
+    max-width: 90%; /* Adjust maximum width as needed */
+    white-space: nowrap;
+    margin: 0; /* Remove default margin */
+    margin-bottom: 10px;
 }
+
 
 .header-content h3 {
+    font-family: 'Roboto',sans-serif;
+    font-size: 25px;
     font-weight: 400;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
 }
 
+.header-content p {
+    font-size: 20px;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 400;
+}
 .email-signup {
-    background: #fff;
+    font-weight:400;
+    background: #ffffff2a;
     border-radius: 4px;
     display: flex;
     align-items: center;
