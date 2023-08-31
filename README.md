@@ -41,7 +41,7 @@ The Netflix Homepage Clone is a static web page that closely resembles the desig
 
 ### Alternate Way: Access the Netflix Clone
 
-1. Visit the live application by clicking on the following link: [Netflix Clone](https://arshgujral.github.io/Netflix-Clone/)
+1. Visit the live application by clicking on the following link: [Netflix Clone](https://netflix-clone-arsh.netlify.app/)
 
 # Screenshots
 
