@@ -82,10 +82,10 @@ nav button {
     justify-content: center;
     align-items: center;
     text-align: center;
-    height: 100vh; /* Make the header content take up the full viewport height */
-    padding: 100px 0; /* Adjust vertical spacing as needed */
-    max-width: 100%; /* Set maximum width to 100% */
-    overflow: hidden; /* Hide any overflowing content */
+    height: 100vh;
+    padding: 100px 0;
+    max-width: 100%;
+    overflow: hidden;
 }
 
 .header-content h1 {
@@ -93,9 +93,9 @@ nav button {
     font-size: 50px;
     line-height: 80px;
     font-weight: 800;
-    max-width: 90%; /* Adjust maximum width as needed */
+    max-width: 90%;
     white-space: nowrap;
-    margin: 0; /* Remove default margin */
+    margin: 0;
     margin-bottom: 10px;
 }
 
@@ -254,7 +254,7 @@ input[type="radio"] {
 
 .faq small {
     font-size: 25px;
-    font-family: 'NetflixSans', sans-serif; /* Add your desired font here */
+    font-family: 'NetflixSans', sans-serif;
     margin-top: 10px;
     margin-bottom: 10px;
 }
